@@ -1,0 +1,166 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url("img/bienvenida.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); 
+  z-index: 1;
+}
+
+h1 {
+  font-size: 4em;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  margin-bottom: 50px;
+  width: 60%;
+  transform: scaleY(1.2);
+  z-index: 2;
+}
+
+button {
+  font-size: 1.8em;
+  padding: 20px 40px;
+  cursor: pointer;
+  background-color: #ffbf00;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  z-index: 2;
+}
+
+button:hover {
+  background-color: #ffe600;
+  transform: scale(1.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+    width: 80%;
+  }
+  button {
+    font-size: 1.2em;
+    padding: 15px 30px;
+  }
+}
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Nunito", sans-serif; /* Utilizando Nunito para coherencia */
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url("img/bienvenida.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 15%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Fondo oscurecido para mejor contraste */
+  z-index: 1;
+}
+
+h1 {
+  font-size: 4em;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  margin-bottom: 50px;
+  width: 60%;
+  transform: scaleY(1.2);
+  color: white; /* Mantener el título en blanco */
+  z-index: 2;
+}
+
+button {
+  font-size: 1.8em;
+  padding: 20px 40px;
+  cursor: pointer;
+  background-color: #ffbf00; /* Fondo amarillo vibrante */
+  border: none;
+  border-radius: 10px;
+  color: #000000; /* Texto en negro pronunciado */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra de texto para mejorar la legibilidad */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  z-index: 2;
+}
+
+button:hover {
+  background-color: #ffe600;
+  transform: scale(1.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+    width: 80%;
+  }
+  button {
+    font-size: 1.2em;
+    padding: 15px 30px;
+  }
+}
